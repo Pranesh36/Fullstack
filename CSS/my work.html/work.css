@@ -1,0 +1,35 @@
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  display: inline-block;
+  padding: 10px 95px;
+  margin-left: 50px;
+  background-color: bisque;
+  border-top-right-radius: 40px;
+}
+a:hover {
+  color: darkred;
+}
+a:active {
+  color: darkorange;
+  font-size: x-large;
+}
+h1::before {
+  content: "Hi this is a ";
+}
+h1::after {
+  content: " so your privacy is safe here ..!!";
+}
+h1::first-letter {
+  font-size: 60px;
+}
+section {
+  width: 200px;
+  height: 200px;
+  color: chocolate;
+  background-color: darkred;
+  clip-path: circle();
+}

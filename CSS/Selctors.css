@@ -1,0 +1,18 @@
+div {
+  background-color: blue;
+}
+header {
+  background-color: brown;
+}
+footer {
+  background-color: crimson;
+}
+dialog {
+  background-color: darkorange;
+}
+identity {
+  background-color: darkblue;
+}
+[class*="e"] {
+  color: violet;
+}

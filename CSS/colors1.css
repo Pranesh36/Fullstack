@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: linear-gradient(135deg, #ffa8a8 10%, #fcff00 100%);
+  color: black;
+  height: 50vh;
+}
+ul {
+  line-style: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  display: inline;
+  padding: 10px 180px;
+  margin: 4px;
+}
+a:hover {
+  text-transform: capitalize;
+  font-size: larger;
+}
+img {
+  width: 400px;
+  height: 250px;
+  border-radius: 50px;
+}
+a.active {
+  color: blue;
+}

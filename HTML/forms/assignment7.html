@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment about forms</title>
+    <style>
+      .btn{
+        font-size:larger;
+        font-family: 'Times New Roman', Times, serif;
+        text-transform: capitalize;
+        border-radius: 10px;
+        padding:6px;
+        width: 100px;
+
+      }
+      table{
+        color:chocolate;
+        background-color:rgb(202, 190, 202);
+      }
+      input{
+        color:saddlebrown
+      }
+      label{
+        text-transform: capitalize;
+      }
+      .box1{
+        background-color: rgb(215, 226, 247);
+        height: 200px;
+        width:350px;
+        border-style: hidden;
+      }
+      #icon{
+        width:120px;
+        padding:10px;
+        color:black;
+        border-radius: 5px;
+        background-color:rgb(93, 155, 93);
+      }
+   
+    </style>
+  </head>
+  <body>
+    <form action="#" method="post"></form>
+    <fieldset>
+    <legend>User Data</legend>
+    <table cellspacing="20" cellpadding="5px">
+        <tr>
+            <td> <label for="Firstname">Enter your firstname</label></td>
+            <td> <input
+                type="text"
+                name="firstname"
+                id="firstname"
+                placeholder="enter your name"
+                required
+              />
+            </td>
+            </tr>
+            <tr>
+            <td>
+                <label for="Lastname">Enter your lastname</label></td>
+            <td>  <input
+                type="text"
+                name="lastname"
+                id="lastname"
+                placeholder="enter your lastname"
+              />
+            </td>
+        </tr>
+        <tr>
+          <td><label for="E-mail">E-mail</label></td>
+          <td>
+            <input
+            type="text"
+            name="email"
+            id="email"
+            placeholder="enter your email"
+          />
+        </td>
+        </tr>
+        <tr>
+          <td><label for="Phone Number">Phone number</label></td>
+          <td>    <input
+            type="number"
+            name="phone number"
+            id="phone number"
+            placeholder="enter phone number"
+          />
+        </td>
+        </tr>
+        <tr>
+          <td><label for="address">Address</label></td>
+          <td> <textarea name="address" id="address" cols="20" rows="7"></textarea>
+         </td>
+        </tr>
+        <tr>
+          <td><label for="Birth Date">Birth Date</label></td>
+          <td>
+            <input type="datetime-local"
+            name="dob"
+            id="dob"
+            placeholder="enter your dob"/>
+
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Hobbies:
+          </td>
+          <td>
+            <input type="checkbox" singing><span>singing</span>
+            <input type="checkbox" reading><span>reading</span>
+            <input type="checkbox" dancing><span>dancing</span>
+            <input type="checkbox" cricket><span>cricket</span>
+          </td>
+          </tr>
+          <tr>
+            <td>Upload file:</td>
+            <td>
+              <input type="file">
+            </td>
+          </tr>
+        </tr>
+        <tr>
+          <td>
+            <label for= "subjects" multiple >Subjects</label>
+            <select name="subject" id="subject">
+            <option value="english">english</option>
+            <option value="hindi">hindi</option>
+            <option value="maths">maths</option>
+            <option value="social">social science</option>
+            <option value="science">science</option>
+            </select>
+          </td>
+        </tr>
+        
+        <tr>
+          <td><input type="button" value="register" class="btn"></td>
+          <td><input type="submit" value="submit" class="btn" ></td>
+          <td><input type="reset" value="reset"  class="btn"></td>
+        </tr>
+    </fieldset>
+    </table>
+    <br>
+    <br>
+    <fieldset>
+    <div>
+      <label for="name">Name</label>
+      <br>
+      <input type="text" placeholder="firstname">
+      <input type="text" placeholder="lastname">
+    </div>
+    <br>
+    <div>
+      <label for="email">E-mail</label>
+      <br>
+      <input type="email" placeholder="ex:myname@example.com">
+    </div>
+    <br>
+    <div>
+      <label for="phone number">Phone number</label>
+      <br>
+      <input type="number" placeholder="area code">
+
+      <input type="number" placeholder="Phone number">
+    </div>
+    <br>
+    <div class="box1">
+      <label for="adddress"> Address</label>
+      <br>
+      <input type="text" placeholder="street address">
+      <br>
+      <br>
+      <input type="text" placeholder="street address line 2">
+      <br>
+      <br>
+      <input type="text" placeholder="city">
+      <input type="text" placeholder="state/province">
+      <br>
+      <input type="number" placeholder="postal/zipcode">
+      <input type="text" placeholder="country">
+      <br>
+      <br>
+      <div>
+        <label for="brith date"> Birth date</label>
+        <br>
+        <input type="datetime-local"placeholder="">   
+      </div>
+      <br>
+      <br>
+    </div>
+    <br>
+    <br>
+
+    <div>
+      where did you hear about us?
+      <br>
+      <input type="checkbox" A friend or colleauge><span>A friend or colleauge</span>
+      <br>
+      <input type="checkbox" Google><span>Google</span>
+      <br>
+      <input type="checkbox" Blog post><span>Blog post</span>
+      <br>
+      <input type="checkbox" New article><span>New article</span>
+      <br>
+      <input type="checkbox" others><span>others</span>
+      <br>
+    </div>
+    <br>
+    <div>
+     <b>Membership type</b>
+      <br>
+      <input type="radio">
+      <label for="membership type"> Standard</label> 
+      <br>  
+      <input type="radio">
+      <label for="Premium">Premium</label>
+      <br>   
+      <input type="radio">
+      <label for="ultimate">ultimate</label>   
+    </div>
+    <br>
+    <div>
+      Preferred way to contact
+      <br>
+      <input type="radio">
+      <label for="phone">Phone</label>  
+      <br>
+      <input type="radio">
+      <label for="email">E-mail</label> 
+      <br>
+      <input type="radio">
+      <label for="Any">Any</label>      
+    </div>
+    <br>
+    <div>
+     <b> Membership Rules</b>
+      <br>
+      1. Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, officia magnam. Qui quasi sed tempore debitis deleniti optio quae tempora!
+      <br>
+      <br>
+      2. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint molestias perspiciatis voluptatibus, laudantium inventore iusto repudiandae et assumenda facilis? Earum dignissimos quis cumque perferendis aperiam id molestiae vel eaque quod.
+      <br>
+      <br>
+      <br>
+      <input type="checkbox"><span> i have read, understood,and accepted the rules for the membership</span>  
+      <br>
+    </div>
+    <br>
+    <div>
+      <b>Privacy Policy</b>
+      <br>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem iure quisquam laudantium enim itaque. Quidem modi magnam dolor quae, quibusdam sed repellendus blanditiis impedit perferendis nam reprehenderit optio voluptate quos?
+      <br>
+      <br>
+      <input type="checkbox"><span> i have read, understood,and accepted the PRIVACY POLICY for membership.</span>  
+      <br>
+      <br>
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis quia eveniet repellat, mollitia in quos eius possimus aliquam voluptatem commodi repellendus similique maiores consequuntur? Ipsam sapiente repellat unde temporibus perferendis?
+        
+        <br>
+       <i>Thank you</i>
+       <br>
+       <br>
+       <input type="Submit Application" value="Submit Application" id="icon" >
+
+      </div>
+    </div>
+    </fieldset>
+  </body>
+</html>

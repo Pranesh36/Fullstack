@@ -1,0 +1,25 @@
+img {
+  height: 200px;
+  width: 200px;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+li {
+  display: inline-block;
+  background: orange;
+  padding: 5px 30px;
+  margin-right: 50px;
+  border-radius: 22px;
+}
+a {
+  text-decoration: none;
+  color: blue;
+  font-size: 22px;
+}
+.footer {
+  color: black;
+}
+
